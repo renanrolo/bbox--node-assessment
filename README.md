@@ -4,7 +4,7 @@
 # <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> Desafio Back-end BossaBox 
 
 ## **Instruções**
-Você deve efetuar fazer o _pull_ do código e abrir um _**Merge Request**_ para avaliação.
+Você deve efetuar o _pull_ do código local e após a finalização, abrir um _**Merge Request**_ para avaliação.
 
 ## **Avaliação**
 Neste desafio, você deve identificar falhas no código que comprometam os seguintes itens:
