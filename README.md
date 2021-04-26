@@ -35,6 +35,12 @@ Instale o _ts-node_ globalmente com o seguinte comando
 
 `npm i -g ts-node`
 
+Instale todas as dependências com algum dos comandos abaixo:
+
+`npm install --quiet`
+
+`yarn install --quiet`
+
 Depois execute as migrations do _typeorm_ para criar as tabelas necessárias, com algum dos comandos abaixo:
 
 `npm run typeorm migration:run` 
