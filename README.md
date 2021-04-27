@@ -5,6 +5,7 @@
 
 ## **Instruções**
 Você deve efetuar o _pull_ do código local e após a finalização, abrir um _**Merge Request**_ para avaliação.
+TEMPO ESTIMADO DE RESOLUÇÃO: **20~30min**
 
 ## **Avaliação**
 Neste desafio, você deve identificar falhas no código que comprometam os seguintes itens:
