@@ -5,21 +5,21 @@ import {
   JoinColumn,
   ManyToOne,
   PrimaryColumn,
-} from "typeorm";
-import User from "./User";
+} from 'typeorm';
+import User from './user';
 
-@Entity("projects")
+@Entity('projects')
 export default class Project extends BaseEntity {
   @PrimaryColumn()
   uuid: string;
 
-  @Column({ name: "description" })
+  @Column({ name: 'description' })
   description: string;
 
   @ManyToOne((type) => User)
-  @JoinColumn({ name: "owner" })
+  @JoinColumn({ name: 'owner' })
   owner: User;
 
-  @Column({ name: "created_at" })
+  @Column({ name: 'created_at' })
   creationDate: Date;
 }
